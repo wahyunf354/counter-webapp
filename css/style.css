@@ -1,5 +1,5 @@
-
-html, body {
+html,
+body {
   background: white;
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ html, body {
   height: 100vh;
 }
 
-.nav {i
+.nav {
   height: 10%;
   padding: 5px 0;
   width: 100%;
@@ -21,6 +21,7 @@ html, body {
 
 .nav .menu,
 .btn {
+  font-size: 24px;
   cursor: pointer;
   min-width: 50px;
   text-align: center;
@@ -29,7 +30,7 @@ html, body {
 }
 
 .row {
-  height:90%;
+  height: 90%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -37,6 +38,5 @@ html, body {
 }
 
 .row h1 {
-  font-size: 100px;
+  font-size: 250px;
 }
-
