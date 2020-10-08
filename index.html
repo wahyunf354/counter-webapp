@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Counter | Wahyu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="nav">
+      <div class="menu">Menu</div>
+      <div class="btn btn-min">Kurang</div>
+      <div class="btn btn-reset">Reset</div>
+    </div>
+    <div class="row">
+      <h1 class="number">0</h1>   
+    </div>
+  </div>
+
+  <script>
+    let number = 0;
+    const plus = document.querySelector('.row');
+    const h1 = document.querySelector('h1');
+    const btnMin = document.querySelector('.btn-min');
+    const btnReset = document.querySelector('.btn-reset');
+
+    plus.addEventListener("click", () => {
+      number++;
+      h1.textContent = number;
+    })
+
+    btnReset.addEventListener("click", () => {
+      number = 0;
+      h1.textContent = number;
+    })
+
+    btnMin.addEventListener('click', () => {
+      number--;
+      h1.textContent = number;
+    })
+  </script>
+</body>
+</html>
