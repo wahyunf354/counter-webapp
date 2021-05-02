@@ -39,4 +39,5 @@ body {
 
 .row h1 {
   font-size: 250px;
+  cursor: pointer;
 }
